@@ -1,0 +1,23 @@
+---
+- mystudent: 
+  -name: anil
+   phone: 12121212
+   address:
+     doorno: 101
+     street: 1st street
+     pincode: 0009090
+
+  -name: sunil
+   phone: 13232243
+   address:
+     doorno: 102
+     street: 1st street
+     pincode: 8983912
+  
+  -name: vimal
+   phone: 11241412
+   address:
+     doorno: 103
+     street: 1st street
+     pincode: 33294239
+

@@ -1,0 +1,13 @@
+---
+  - hosts: all
+    become: yes
+    tasks:
+    - name: in task1 I want to install apache git (apt-get install git)
+      apt:
+        name: git
+        state: present
+
+    - name: in task1 I want to install tree  (apt-get install tree)
+      apt:
+        name: tree
+        state: present

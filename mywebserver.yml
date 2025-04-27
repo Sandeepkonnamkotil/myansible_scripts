@@ -5,7 +5,7 @@
    tasks:
    - name: to install webserver
      apt: 
-      name: apache2
+      name: "{{mywebservername}}"
       state: present
      when: ansible_os_family=="Debian"
    - name: to start webserver
